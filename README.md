@@ -1,80 +1,68 @@
-# Testing III
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-In this project, you will demonstrate proficiency by writing unit tests for an existing React application. Your tests should verify the behaviour listed in the _Minimum Viable Product_ section.
+## Available Scripts
 
-Some of the topics covered were:
+In the project directory, you can run:
 
-- Testing a React application.
-- Using the `react-testing-library` testing framework.
-- Writing unit tests for React components.
+### `npm start`
 
-## Instructions
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-**Read these requirements carefully. Understand exactly what is expected _before_ starting.**
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
 
-You are allowed, and encouraged, to collaborate with your peers while working on this assignment. Remember to follow the _twenty-minute rule_ and post questions to your cohort's help channel before seeking support from your PM and Instructor.
+### `npm test`
 
-## Commits
+Launches the test runner in the interactive watch mode.<br>
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Please push your code often and use descriptive commit messages, this helps you and your project manager.
+### `npm run build`
 
-## Project Description
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-In this project, you will **write unit tests** for an existing React appliation that controls a gate and shows two leds that portrait the status of the gate.
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
 
-The requirements are listed under the _Minimum Viable Product_ section below.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Project Set Up
+### `npm run eject`
 
-Follow these steps to setup your git _fork_ and _branch_.
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-- [ ] Fork this repository.
-- [ ] Use GitHub's website to add your project manager as collaborator on **your fork**.
-- [ ] **Clone your forked version** of the repository (**Not Lambda's**!).
-- [ ] Create a new branch: `git checkout -b <firstName-lastName>`.
-- [ ] Commit changes to your `<firstName-lastName>` branch.
-- [ ] Push often to your branch: `git push origin <firstName-lastName>`.
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Follow these steps for completing your project.
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-- [ ] Submit a Pull-Request to merge the `<firstName-lastName>` branch into the master branch on your fork. **Please don't merge your own pull request**
-- [ ] Use GitHub's webiste to add your project manager as a reviewer on the pull-request.
-- [ ] Your project manager will count the project as complete by merging the branch back into the master branch of your forked repository.
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Minimum Viable Product
+## Learn More
 
-After a set of interviews with the potential users of the solution, we gathered the following information about the desired functionality. Not all the information provided by our clients is relevant to the design of the solution, but it's included to help understand the requirements.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Your job is to write unit tests to ensure that the application behaves as expected.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-The expected/assumed behavior of the application is listed below.
+### Code Splitting
 
-### Gate
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-- defaults to `unlocked` and `open`
-- cannot be closed or opened if it is locked
+### Analyzing the Bundle Size
 
-### Dashboard
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-- shows the controls and display
+### Making a Progressive Web App
 
-### Display Component
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-- displays if gate is open/closed and if it is locked/unlocked
-- displays 'Closed' if the `closed` prop is `true` and 'Open' if otherwise
-- displays 'Locked' if the `locked` prop is `true` and 'Unlocked' if othewise
-- when `locked` or `closed` use the `red-led` class
-- when `unlocked` or `open` use the `green-led` class
+### Advanced Configuration
 
-### Controls Component
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-- provide buttons to toggle the `closed` and `locked` states.
-- buttons' text changes to reflect the state the door will be in if clicked
-- the closed toggle button is disabled if the gate is closed
-- the locked toggle button is disabled if the gate is open
+### Deployment
 
-## Stretch Problem
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-This section is **optional** and not counted towards MVP. Start working on it after you're done with the main assignment.
+### `npm run build` fails to minify
 
-- Work on [this repository for extra practice testing a legacy React application](https://github.com/LambdaSchool/React-Testing).
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
